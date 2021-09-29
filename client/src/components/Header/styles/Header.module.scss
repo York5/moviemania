@@ -1,0 +1,26 @@
+.header {
+  height: 10%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+
+  .header_title {
+    margin-left: 30px;
+    font-size: 1.7em;
+    font-weight: bold;
+    color: white;
+  }
+  .avatar_block {
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+    border: 1px solid #545280;
+    margin-right: 30px;
+    background-image: url('https://i.insider.com/5dcc135ce94e86714253af21?width=1000&format=jpeg&auto=webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+}

@@ -1,0 +1,14 @@
+.main_block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.main_block .detail_trailer_block {
+  padding-right: 80px;
+}
+
+.main_block .preview_player {
+  margin-top: 20px;
+}
+/*# sourceMappingURL=HomePage.module.css.map */

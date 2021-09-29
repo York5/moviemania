@@ -1,0 +1,70 @@
+.preview_detal {
+  height: 180px;
+  width: 250px;
+  background: rgba(255, 255, 255, 0.25);
+  background: rgba(255, 255, 255, 0.25);
+  -webkit-box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37), rgba(0, 0, 0, 0.418) 1.95px 1.95px 2.6px;
+          box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37), rgba(0, 0, 0, 0.418) 1.95px 1.95px 2.6px;
+  backdrop-filter: blur(3.5px);
+  -webkit-backdrop-filter: blur(3.5px);
+  border-radius: 15px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  padding: 10px;
+  color: white;
+  position: relative;
+  overflow: hidden;
+}
+
+.preview_detal .play_button {
+  height: 60px;
+  width: 60px;
+  border-radius: 0 0 0 15px;
+  background-color: #4b4978;
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.preview_detal .play_button:hover {
+  background-color: #f87f28;
+  border: none;
+}
+
+.preview_detal .play_button:hover .icon {
+  color: white;
+}
+
+.preview_detal .play_button .icon {
+  color: #ffffff;
+  font-size: 2.4vw;
+}
+
+.preview_detal h4 {
+  font-weight: bold;
+}
+
+.preview_detal .quick_info {
+  font-size: 0.5rem;
+  margin-bottom: 10px;
+  color: #cec1c1;
+}
+
+.preview_detal .info_text {
+  font-size: 0.5rem;
+  color: #cec1c1;
+}
+
+.preview_detal hr {
+  border: 0;
+  border-top: 1px solid #c5c2c2;
+}
+/*# sourceMappingURL=PreviewDetail.module.css.map */

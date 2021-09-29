@@ -1,0 +1,57 @@
+.filter_bar {
+  width: 100%;
+  height: 55px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 20px;
+  margin-bottom: 10px;
+  font-family: 'Roboto';
+}
+
+.filter_bar .filter_item {
+  height: 100%;
+  width: 35px;
+  margin: 0 10px;
+  background-color: #4b4978;
+  color: #b6b3e0;
+  border-radius: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px, 0px -1px 2px rgba(223, 219, 219, 0.55);
+          box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px, 0px -1px 2px rgba(223, 219, 219, 0.55);
+}
+
+.filter_bar .filter_item:hover {
+  background-color: #f87f28;
+  border: none;
+}
+
+.filter_bar .filter_item:hover .icon {
+  color: white;
+}
+
+.filter_bar .filter_item:hover .text {
+  color: white;
+}
+
+.filter_bar .filter_item .icon {
+  font-size: 1.5vw;
+  margin-bottom: 0.7vh;
+}
+
+.filter_bar .filter_item .text {
+  font-size: 0.5rem;
+}
+/*# sourceMappingURL=FilterBar.module.css.map */

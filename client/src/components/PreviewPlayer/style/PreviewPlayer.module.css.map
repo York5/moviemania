@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,eAAe,CAAC;EACd,KAAK,EAAE,KAAK;EAEZ,aAAa,EAAE,IAAI;EACnB,QAAQ,EAAE,MAAM;EAEhB,MAAM,EAAE,GAAG,CAAC,KAAK,CAAC,yBAAyB;CAC5C",
+    "sources": [
+        "PreviewPlayer.module.scss"
+    ],
+    "names": [],
+    "file": "PreviewPlayer.module.css"
+}

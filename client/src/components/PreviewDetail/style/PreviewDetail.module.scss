@@ -1,0 +1,55 @@
+.preview_detal {
+  height: 180px;
+  width: 250px;
+  background: rgba(255, 255, 255, 0.25);
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37),
+    rgba(0, 0, 0, 0.418) 1.95px 1.95px 2.6px;
+  backdrop-filter: blur(3.5px);
+  -webkit-backdrop-filter: blur(3.5px);
+  border-radius: 15px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  padding: 10px;
+  color: white;
+  position: relative;
+  overflow: hidden;
+  .play_button {
+    height: 60px;
+    width: 60px;
+    border-radius: 0 0 0 15px;
+    background-color: #4b4978;
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &:hover {
+      background-color: #f87f28;
+      border: none;
+      .icon {
+        color: white;
+      }
+    }
+    .icon {
+      color: #ffffff;
+      font-size: 2.4vw;
+    }
+  }
+  h4 {
+    font-weight: bold;
+  }
+  .quick_info {
+    font-size: 0.5rem;
+    margin-bottom: 10px;
+    color: #cec1c1;
+  }
+  .info_text {
+    font-size: 0.5rem;
+    color: #cec1c1;
+  }
+  hr {
+    border: 0;
+    border-top: 1px solid #c5c2c2;
+  }
+}
